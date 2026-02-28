@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="weather-app">
+      <div class="search-bar">
+        <input type="text" id="cityInput" placeholder="Enter a city.." />
+        <button onclick="searchCity()">Search</button>
+      </div>
+
+      <div class="current-weather">
+        <div class="left">
+          <h1 id="cityName">Paris</h1>
+          <p id="dateTime">Saturday 19:09, clear sky</p>
+          <p>
+            Humidity: <span id="humidity">56%</span>, Wind:
+            <span id="wind">5.14 km/h</span>
+          </p>
+        </div>
+
+        <div class="right">
+          <div class="icon">☀️</div>
+          <div class="temperature"><span id="temperature">13</span>°C</div>
+        </div>
+      </div>
+
+      <div class="forecast">
+        <div class="day">
+          <p>Sat</p>
+          <div>☁️</div>
+          <p><span class="high">12°</span> <span class="low">9°</span></p>
+        </div>
+
+        <div class="day">
+          <p>Sun</p>
+          <div>☁️</div>
+          <p><span class="high">14°</span> <span class="low">6°</span></p>
+        </div>
+
+        <div class="day">
+          <p>Mon</p>
+          <div>☁️</div>
+          <p><span class="high">17°</span> <span class="low">8°</span></p>
+        </div>
+
+        <div class="day">
+          <p>Tue</p>
+          <div>☁️</div>
+          <p><span class="high">17°</span> <span class="low">10°</span></p>
+        </div>
+
+        <div class="day">
+          <p>Wed</p>
+          <div>☁️</div>
+          <p><span class="high">17°</span> <span class="low">10°</span></p>
+        </div>
+      </div><footer>
+
+        This project was coded by
+        <a href="https://github.com/veronycam/" target="_blank"
+          >Pelaelo Molaba</a
+        >, is
+        <a href="https://github.com/veronycam" target="_blank"
+          >open-sourced on GitHub</a
+        >
+        and
+        <a href="https://meteo-shecodes-app.netlify.app/" target="_blank"
+          >hosted on Netlify</a
+
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
